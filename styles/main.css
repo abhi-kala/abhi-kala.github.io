@@ -1,8 +1,8 @@
-#headshot {
+.head-text #headshot {
   width: 150px;
   height: 150px;
   border-radius: 150px;
-  display: inline-block;
+
 
 }
 
