@@ -1,9 +1,6 @@
 
 header {
   background-color: #191919;
-  margin-top: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
 }
 
 
@@ -16,5 +13,5 @@ header {
 .header-text {
   display: inline-block;
   color: red;
-  margin-left: 100px;
+  margin-left: 500px;
 }
