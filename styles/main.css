@@ -2,5 +2,9 @@
   width: 150px;
   height: 150px;
   border-radius: 150px;
-  
+
+}
+
+.header-text {
+  display: inline-block;
 }
