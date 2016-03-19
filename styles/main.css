@@ -1,13 +1,7 @@
-#header {
-  color: red;
-}
-
 .head-shot #headshot {
   width: 150px;
   height: 150px;
   border-radius: 150px;
-
-
 }
 
 .header-text {
