@@ -1,12 +1,6 @@
 #header {
-  color: rgb(25,25,25);
+  color: red;
 }
-
-.head-shot{
-margin-top: -75px;
-
-}
-
 
 .head-shot #headshot {
   width: 150px;
