@@ -8,4 +8,5 @@
 .header-text {
   display: inline-block;
   color: red;
+  margin-left: 100px;
 }
