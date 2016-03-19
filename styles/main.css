@@ -1,9 +1,5 @@
-header {
+#header {
   color: #fff;
-  background-color: rgb(25,25,25);
-  z-index: 0;
-  position: relative;
-  overflow: hidden;
 }
 
 .head-shot{
