@@ -1,17 +1,112 @@
-
-header {
+*{
+  padding:0;
+  margin:0;
+}
+.mainHeader {
   background-color: #191919;
+  overflow: hidden;
 }
 
+.header-div{
+  max-width:900px;
+  text-align:justify;
+  margin:0px auto;
+  padding:2em;
+  overflow:hidden;
+}
 
-.head-shot #headshot {
+.head-shot {
+  background-image: url("../abhi.jpg");
   width: 150px;
   height: 150px;
   border-radius: 150px;
+  background-size: 100%;
+  background-repeat:no-repeat;
+  background-position: center center;
+  float:left;
 }
 
 .header-text {
-  display: inline-block;
-  color: red;
-  margin-left: 500px;
+  color: rgb(255,255,255);
+  width:700px;
+  margin-left:40px;
+  margin-top: 2px;
+  height:86px;
+  float: left;
+  font-family: "Lato";
+  font-size: 20px;
+  font-weight: 300;
 }
+
+.header-text .title{
+  font-size: 48px;
+  font-family:"Lato";
+  font-weight: 900;
+  margin-top: 48px;
+}
+
+#container {
+  background-color: rgb(255,255,255);
+  font-size:1.25em;
+  max-width:900px;
+  margin:auto;
+  margin-top:2em;
+}
+
+td {
+  outline: 1px solid #eee;
+  padding:1em;
+  vertical-align:middle;
+  font-family: "Lato";
+  font-weight: 300;
+}
+
+.tdate{
+  width: 150px;
+}
+
+.tweek{
+  width: 150px;
+}
+
+.tposts {
+  width: 600px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #56c4e2;
+}
+
+/* unvisited link */
+a:link{
+  text-decoration: none;
+  color: #56c4e2;
+}
+
+/* mouse over link */
+a:hover{
+  color: #F16C20
+}
+
+a:visited{
+  color: #56c4e2;
+}
+
+.content p{
+  max-width: 900px;
+  margin:0px auto;
+  text-align: justify;
+  margin-top: 10px;
+  /* margin-bottom: 30px; */
+  font-size: 24px;
+  line-height: 1.5;
+  color:rgb(68, 66, 62);
+  font-family:"Lato";
+  font-weight: 300;
+}
+
+.content .question{
+  margin-top: 40px;
+  font-weight: 700;
+}
+
+
