@@ -76,6 +76,13 @@ td {
   color: #56c4e2;
 }
 
+.tposts-tba {
+  width: 600px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #cccccc;
+}
+
 /* unvisited link */
 a:link{
   text-decoration: none;
