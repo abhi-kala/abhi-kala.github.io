@@ -1,7 +1,79 @@
+
 *{
+  border: 1px solid red;
+}
+.container{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+.blog-version-nav{
+  margin:0;
+  list-style: none;
+  background: black;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  flex:1 100%;
+
+}
+
+.blog-version-nav a{
+  text-decoration: none;
+  display: block;
+  padding:1em;
+  color: white;
+  flex: 1;
+}
+
+.back-nav{
+  background: tomato;
+}
+
+.head-shot {
+  background-image: url("../abhi.jpg");
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+  background-size: 100%;
+  background-repeat:no-repeat;
+  background-position: center center;
+ /*  float:left; */
+}
+
+
+#header {
+  background:cadetblue;
+}
+
+.date{
+  background: gold;
+}
+
+.week-number{
+  background: deepskyblue;
+}
+
+.post{
+  background: hotpink;
+}
+
+.footer{
+  background: lightgreen;
+}
+
+
+
+
+/* *{
   padding:0;
   margin:0;
-  /* border: 1px solid red; */
 }
 .mainHeader {
   background-color: #191919;
@@ -44,16 +116,6 @@
   font-family:"Lato";
   font-weight: 900;
   margin-top: 48px;
-}
-
-.back-button{
-  font-size:1.25em;
-  font-family: "Lato";
-  font-weight: 400;
-  color: #56c4e2;
-  text-align: center;
-  border: 1px solid #ededed;
-
 }
 
 #container {
@@ -128,3 +190,4 @@ a:visited{
 }
 
 
+ */

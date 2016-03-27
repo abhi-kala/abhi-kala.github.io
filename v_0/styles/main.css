@@ -1,7 +1,6 @@
 *{
   padding:0;
   margin:0;
-  /* border: 1px solid red; */
 }
 .mainHeader {
   background-color: #191919;
@@ -44,16 +43,6 @@
   font-family:"Lato";
   font-weight: 900;
   margin-top: 48px;
-}
-
-.back-button{
-  font-size:1.25em;
-  font-family: "Lato";
-  font-weight: 400;
-  color: #56c4e2;
-  text-align: center;
-  border: 1px solid #ededed;
-
 }
 
 #container {
