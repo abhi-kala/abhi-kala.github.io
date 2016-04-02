@@ -127,4 +127,9 @@ a:visited{
   font-weight: 700;
 }
 
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
