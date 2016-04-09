@@ -77,7 +77,7 @@ h1{
 ----------------------------------------------------------------------- */
 /* change the default td styling that comes with skeleton.css */
 
-td {
+.back-button td {
   text-align: center;
   font-weight: 400;
 }
