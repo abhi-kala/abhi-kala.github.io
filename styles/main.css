@@ -115,16 +115,14 @@ a:visited{
 @media (min-width: 400px) {
   
   #headshot{
-  background: url("../images/abhi.jpg") no-repeat center;
+/*   background: url("../images/abhi.jpg") no-repeat center; */
   width: 120px ;
   height: 120px;
   border-radius: 120px;
   background-size: 100%;
- /*  margin-top: 5px; */
-  }
-
-  .row{
-    margin: 0 auto;
+  position:relative;
+  display: block;
+  margin: 5px auto;
   }
 
   #nav li {
