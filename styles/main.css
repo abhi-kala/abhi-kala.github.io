@@ -46,10 +46,14 @@ h1{
   padding-top: 35px;
 }
 
-/* header color and size for blog pages */
+/* header color */
 .header {
   background-color: #191919;
-  height: 150px;
+}
+
+/* header size for blog pages */
+.title{
+   height: 150px;
 }
 
 /* header div that holds the header text and header image */
